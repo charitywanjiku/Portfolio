@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    color: white;
+    list-style: none;
+}
+.links ul{
+    display: flex;
+    gap: 2em;
+}
+.containerA{
+    display: inline-block;
+    margin-left: 80px;
+    color: #fff;
+
+}
+.links{
+    position: fixed;
+    left:60%;
+    top:5px;
+    
+}
+.info{margin-left: 80px;
+    margin-top: 120px;
+    position: absolute;
+    top: 3%;
+    
+    
+}
+#homepage{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+     
+    
+}
+.info p{
+    color:white;
+    
+
+}
+.info h2{
+    color: white;
+}
+.info h1{
+    color:white;
+
+}
+.info2 {
+    
+    display:inline-block;
+    position: absolute;
+    top: 55%;
+    margin-left: 400px;
+}
+.skills{
+    display:inline-block;
+    position:absolute;
+    top:90%;
+    margin-left:400px ;
+    
+}
+.Skills1, .experience, .Education{
+    display: inline-block;
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif ;
+
+}
+.experience{
+
+position: absolute;
+top:1%;
+margin-left: 1px;
+width:250px;
+ 
+
+}
+.Skills1{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.Education{
+    margin-left: 19rem;
+    position: absolute;
+    top:1%;
+    width:250px;
+
+}
+
+.Education :hover{
+    transform: translateY(-10px);
+    transition: 3s;
+    
+}
+.picture img {
+    border-radius: 50%;
+    width: 250px;
+    box-shadow: 10px 10px 10px orangered;
+    
+
+}
+.picture{
+    display:flex;
+    justify-content: center;
+
+}
+.icon img{
+    width: 50px;
+
+}
+.icon{
+    display :inline-block;
+    position: absolute;
+    left: 70%;
+    margin-top: 2%;
+    display:grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    gap: 5px;
+
+}
+.image img{
+    border-radius: 50%;
+    box-shadow: 20px 20px 20px orangered;
+}
+.app, .web, .UI{
+    display:inline-block;
+    margin-left: 20px;
+}
+.UI{
+    position: absolute;
+    top: 200;
+}
+    
+        
+    
+
+
+
+
+
+
+    
+    
+    
